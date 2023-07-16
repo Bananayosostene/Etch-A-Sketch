@@ -63,7 +63,7 @@
   background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
 .Etch-A-Sketch{
-    background-color: aqua;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     width: 50rem;
     height: 40rem;
     align-items: center;
