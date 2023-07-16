@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poject5 | Etch-A-Sketch</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="Etch-A-Sketch">
+    <div class="divs">
+        
+    <div class="left-button">
+       <p class="txt">Select color you want <br> to fill in the Boxes</p> 
+      <button class="button black" onclick="setColor('black')">Black</button><br>
+      <button class="button red" onclick="setColor('red')">Red</button><br>
+      <button class="button blue" onclick="setColor('blue')">Blue</button><br>
+      <button class="button green" onclick="setColor('green')">Green</button><br>
+      <button class="button rainbow" onclick="setColor('rainbow')">Random</button><br>
+
+    </div>
+    <div>
+        <div class="top-button">
+      <button class="tbutton" onclick="clearGrid()">ClearAll</button>
+      <button class="tbutton" onclick="eraseGrid()">Erase</button>
+      <button class="tbutton" onclick="setNewGridSize()">New Grid</button>
+    </div>
+      <div class="container"></div>
+      </div>
+    </div>
+    </div>
+  <script src="./script.js"></script>
+</body>
+</html>
